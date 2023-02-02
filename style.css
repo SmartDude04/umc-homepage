@@ -1,0 +1,200 @@
+#web-logo {
+    width: 64px;
+    height: 64px;
+}
+
+#web-logo-text {
+    font-size: 25px;
+}
+
+
+a.nav-link {
+    color: black;
+}
+
+#nav-item {
+    font-size: 20px;
+}
+
+.carousel-1 {
+    color: rgb(255, 255, 255);
+}
+
+h1.carousel-text {
+    font-size: 100px;
+}
+
+p.carousel-text {
+    font-size: 60px;
+}
+
+.carou {
+    filter: brightness(50%)
+}
+
+.spacer {
+    margin-top: 100px;
+}
+
+.half-spacer {
+    margin-top: 50px;
+}
+
+.side-spacer {
+    margin-left: 50px;
+}
+
+.small-spacer {
+    margin: 5px;
+}
+
+.home-init {
+    font-size: 20px;
+}
+
+.text-big {
+    font-size: 250px;
+}
+
+.display-5-small {
+    font-size: 20px;
+}
+
+#sources-gray {
+    background-color: rgb(200, 200, 200);
+}
+
+#sources-link-style {
+    text-decoration: none !important;
+}
+
+/*These are for the backgrounds on each language page*/
+#paralax-python {
+    background-image: url("python-photos/python-page-background.png");
+    min-height: 960px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#paralax-java {
+    background-image: url("javascript-photos/javascript-page-background.png");
+    min-height: 960px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#paralax-cpp {
+    background-image: url("cpp-photos/cpp-logo-background.png");
+    min-height: 960px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#paralax-scratch {
+    background-image: url("scratch-photos/scratch-page-background.png");
+    min-height: 960px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#paralax-html {
+    background-image: url("html-photos/html-page-background.png");
+    min-height: 960px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#paralax-unity {
+    background-image: url("unity-photos/unity-page-background.png");
+    min-height: 960px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*This centers the text on the backgrounds for the language pages*/
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#py-paragraph {
+    font-size: 25px;
+}
+
+#js-paragraph {
+    font-size: 25px;
+}
+
+#cpp-paragraph {
+    font-size: 25px;
+}
+
+#scratch-paragraph {
+    font-size: 25px;
+}
+
+#html-paragraph {
+    font-size: 25px;
+}
+
+#unity-paragraph {
+    font-size: 25px;
+}
+
+.yt-embed {
+    width: 40%;
+    height: 450px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.yt-embed-small {
+    width: 100%;
+    height: 350px;
+
+}
+
+#javascript-background-text {
+    color: white;
+}
+
+#unity-background-text {
+    color: white;
+}
+
+table {
+    border-style: solid;
+    border-width: 5px;
+}
+
+.home-lang-img {
+    transition: all 0.5s;
+}
+
+.home-lang-img:hover {
+    transform: translate(0px, -50px);
+    box-shadow: 0px 0px 16px #000000;
+}
+
+.html-iframe {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 300px;
+}
+
